@@ -88,9 +88,8 @@ const findTheMissingNumber = (numberArray: number[]) => {
   return null;
 };
 
-const whatsMissing = findTheMissingNumber(numberList);
 console.log('Question 4');
-console.log(whatsMissing);
+console.log(findTheMissingNumber(numberList));
 //----------------------------------------------------------------
 // Question 5
 /**
