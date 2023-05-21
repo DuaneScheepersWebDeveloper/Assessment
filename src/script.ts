@@ -130,12 +130,12 @@ const findTheMissingNumber = (numberArray: number[]) => {
   //an index variable i. It starts from 0 and continues until i reaches the
   //length of the sortedArray.
   for (let i = 0; i < sortedArray.length; i++) {
-    //This conditional statement checks if the current element at index i in
-    //the sortedArray is equal to the expected number in the sequence (i + 1).
-    // In a sorted array, the expected number at each index should be (index + 1).
     if (sortedArray[i] !== i + 1) {
       return i + 1;
     }
+    //This conditional statement checks if the current element at index i in
+    //the sortedArray is equal to the expected number in the sequence (i + 1).
+    // In a sorted array, the expected number at each index should be (index + 1).
   }
   return null;
 };
