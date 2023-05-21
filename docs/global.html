@@ -98,22 +98,16 @@
 
         
             
-<h4 class="name" id="studentName"><span class="type-signature">(constant) </span>studentName<span class="type-signature"> :string</span></h4>
+<h4 class="name" id="duplicateNumberList"><span class="type-signature">(constant) </span>duplicateNumberList<span class="type-signature"></span></h4>
 
 
 
 
+<div class="description">
+    <p>Finds the repeating numbers in an array of numbers.</p>
+</div>
 
 
-    <h5>Type:</h5>
-    <ul>
-        <li>
-            
-<span class="param-type">string</span>
-
-
-        </li>
-    </ul>
 
 
 
@@ -148,7 +142,131 @@
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="script.js.html">script.js</a>, <a href="script.js.html#line17">line 17</a>
+        <a href="script.js.html">script.js</a>, <a href="script.js.html#line144">line 144</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="numberList"><span class="type-signature">(constant) </span>numberList<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    <p>Finds the missing number in a sequence of numbers.</p>
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="script.js.html">script.js</a>, <a href="script.js.html#line116">line 116</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+        
+            
+<h4 class="name" id="questionTwoParagraph"><span class="type-signature">(constant) </span>questionTwoParagraph<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    <p>Fixes the given paragraph by replacing &quot;JavaScript&quot; with &quot;javascript&quot; and splitting it into sentences.</p>
+</div>
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="script.js.html">script.js</a>, <a href="script.js.html#line54">line 54</a>
     </li></ul></dd>
     
 
@@ -176,7 +294,7 @@
     
 
     
-    <h4 class="name" id="mySum"><span class="type-signature"></span>mySum<span class="signature">(a, b)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="changeString"><span class="type-signature"></span>changeString<span class="signature">()</span><span class="type-signature"></span></h4>
     
 
     
@@ -184,8 +302,122 @@
 
 
 <div class="description">
-    <p>Example function
-This function returns the sum of two numbers</p>
+    <ul>
+<li>@words-&gt;This line splits the inputString into an array of individual words</li>
+<li>by using the space character (' ') as the delimiter. The resulting array is stored in the variable words.</li>
+<li></li>
+</ul>
+<p>*@filterOut-&gt;This line filters out any words in the words array that are equal</p>
+<ul>
+<li>to the string 'javascript', regardless of case.</li>
+<li>The filter method is used along with a callback function that compares each</li>
+<li>word to 'javascript' after converting both to lowercase.</li>
+<li>The resulting array, excluding any occurrences of 'javascript', is stored</li>
+<li>in the variable filterOut.</li>
+<li></li>
+<li>@reversedString-&gt;This line reverses the order of elements in the filterOut</li>
+<li>array using the reverse method. It then joins the elements of the reversed</li>
+<li>array into a single string, with each word separated by a space (' '),</li>
+<li>using the join method. The resulting reversed and joined string is stored</li>
+<li>in the variable reversedString.</li>
+<li></li>
+<li>@changedString-&gt;This line reverses the order of elements in the filterOut</li>
+<li>array using the reverse method. It then joins the elements of the reversed</li>
+<li>array into a single string, with each word separated by a space (' '), using</li>
+<li>the join method. The resulting reversed and joined string is stored in the</li>
+<li>variable reversedString.</li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="script.js.html">script.js</a>, <a href="script.js.html#line35">line 35</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="checkAnagram"><span class="type-signature"></span>checkAnagram<span class="signature">(str1, str2)</span><span class="type-signature"> &rarr; {boolean}</span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    <p>An anagram is a word or phrase formed by rearranging the letters of another word
+or phrase. In other words, an anagram is created by rearranging the characters
+of a string to produce a different string with the same set of characters.</p>
+<p>Checks if two strings are anagrams of each other.</p>
 </div>
 
 
@@ -221,10 +453,15 @@ This function returns the sum of two numbers</p>
 
         <tr>
             
-                <td class="name"><code>a</code></td>
+                <td class="name"><code>str1</code></td>
             
 
             <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
             
             </td>
 
@@ -232,17 +469,22 @@ This function returns the sum of two numbers</p>
 
             
 
-            <td class="description last"></td>
+            <td class="description last"><p>The first string.</p></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>b</code></td>
+                <td class="name"><code>str2</code></td>
             
 
             <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
             
             </td>
 
@@ -250,7 +492,7 @@ This function returns the sum of two numbers</p>
 
             
 
-            <td class="description last"></td>
+            <td class="description last"><p>The second string.</p></td>
         </tr>
 
     
@@ -291,7 +533,7 @@ This function returns the sum of two numbers</p>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="script.js.html">script.js</a>, <a href="script.js.html#line10">line 10</a>
+        <a href="script.js.html">script.js</a>, <a href="script.js.html#line89">line 89</a>
     </li></ul></dd>
     
 
@@ -320,10 +562,282 @@ This function returns the sum of two numbers</p>
 
         
 <div class="param-desc">
-    <p>a total of two numbers</p>
+    <p>True if the strings are anagrams, false otherwise.</p>
 </div>
 
 
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="fixParagraph"><span class="type-signature"></span>fixParagraph<span class="signature">()</span><span class="type-signature"></span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    <ul>
+<li>@sortedParagraph-&gt;This line uses the replace method with a regular</li>
+<li>expression /JavaScript/g to replace all occurrences of 'JavaScript'</li>
+<li>in the paragraph with 'javascript'. The g flag ensures that all occurrences</li>
+<li>are replaced, not just the first one. The resulting modified paragraph is</li>
+<li>stored in the variable sortedParagraph.</li>
+<li></li>
+<li>@sentences-&gt;This line splits the sortedParagraph into an array of sentences.</li>
+<li>It uses the '. ' string as the delimiter to split the paragraph into sentences.</li>
+<li>Each sentence is treated as a separate element in the resulting sentences array.</li>
+<li></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="script.js.html">script.js</a>, <a href="script.js.html#line67">line 67</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    
+    <h4 class="name" id="getStatsOnNumberList"><span class="type-signature"></span>getStatsOnNumberList<span class="signature">(numbers)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+    
+
+    
+
+
+
+<div class="description">
+    <p>Calculates various statistics on a number list.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>numbers</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;number></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>The list of numbers.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="script.js.html">script.js</a>, <a href="script.js.html#line185">line 185</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <ul>
+<li>The statistics object with lowest, highest, median, and mode values.</li>
+</ul>
+</div>
+
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Object</span>
+
+
+    </dd>
+</dl>
 
     
 
@@ -347,13 +861,13 @@ This function returns the sum of two numbers</p>
 </div>
 
 <nav>
-    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-calculator.html">calculator</a></li></ul><h3>Global</h3><ul><li><a href="global.html#mySum">mySum</a></li><li><a href="global.html#studentName">studentName</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#changeString">changeString</a></li><li><a href="global.html#checkAnagram">checkAnagram</a></li><li><a href="global.html#duplicateNumberList">duplicateNumberList</a></li><li><a href="global.html#fixParagraph">fixParagraph</a></li><li><a href="global.html#getStatsOnNumberList">getStatsOnNumberList</a></li><li><a href="global.html#numberList">numberList</a></li><li><a href="global.html#questionTwoParagraph">questionTwoParagraph</a></li></ul>
 </nav>
 
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Wed May 10 2023 11:51:23 GMT+0200 (South Africa Standard Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Sun May 21 2023 19:50:25 GMT+0200 (South Africa Standard Time)
 </footer>
 
 <script> prettyPrint(); </script>
