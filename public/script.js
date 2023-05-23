@@ -253,3 +253,31 @@ const getStatsOnNumberList = (numbers) => {
 const statsNumberList = [1, 4, 3, 4, 5, 7, 7, 8, 9, 10];
 console.log('Question 6');
 console.log(getStatsOnNumberList(statsNumberList));
+//----------------------------------------------------------------
+//Question 7
+//abcdefghijklmnopqrstuvwxyz
+//zyxwvutsrqponmlkjihgfedcba
+//eg: so
+/**
+ * Decode the input string based on the provided cipher.
+ * @param {string} enteredString - The encoded string to be decoded.
+ * @returns {string} The decoded message.
+ */
+const decodeMessage = (enteredString) => {
+    let decodedMessage = '';
+    for (let i = 0; i < enteredString.length; i++) {
+        let character = enteredString[i];
+        if (character >= 'a' && character <= 'z') {
+            decodedMessage += String.fromCharCode('a'.charCodeAt(0) + 'z'.charCodeAt(0) - character.charCodeAt(0));
+        }
+        else {
+            decodedMessage += character;
+        }
+    }
+    return decodedMessage;
+};
+const testOne = "wrw blf hvv ozhg mrtsg'h vkrhlwv?";
+const testTwo = "Yvzs! I xzm'g yvorvev Lzmxv olhg srh qly zg gsv xlolmb!!";
+console.log('Question 7');
+console.log(decodeMessage(testOne));
+console.log(decodeMessage(testTwo));
